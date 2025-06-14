@@ -1,0 +1,38 @@
+{
+  "name": "crypto-trade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "seed": "node ./seed/seed.js",
+    "init": "node ./seed/init.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scarecrow-404/crypto-trade.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scarecrow-404/crypto-trade/issues"
+  },
+  "homepage": "https://github.com/scarecrow-404/crypto-trade#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.10",
+    "pg": "^8.16.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^11.1.0"
+  }
+}
